@@ -1,0 +1,8 @@
+import json
+
+# Открытие файла и загрузка данных
+with open('data.json') as json_file:
+    data = json.load(json_file)
+
+# Вывод данных на экран
+print(data)
